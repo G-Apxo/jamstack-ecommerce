@@ -32,9 +32,9 @@ const ItemView = (props) => {
     <>
       <CartLink />
       <Head>
-        <title>Jamstack ECommerce - {name}</title>
+        <title>Sold out - {name}</title>
         <meta name="description" content={description} />
-        <meta property="og:title" content={`Jamstack ECommerce - ${name}`} key="title" />
+        <meta property="og:title" content={`Sold out - ${name}`} key="title" />
       </Head>
       <div className="
         sm:py-12
